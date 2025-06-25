@@ -1,6 +1,6 @@
 public class GameMaster {
     public static void main(String[] args) {
-        Hero abel = new Hero(100,"銅の剣");
+        Hero abel = new Hero("アベル",100,"銅の剣");
         Slime slimeA = new Slime("スライムA",30);
         System.out.println("「冒険が始まる…！」");
         abel.showStats();
